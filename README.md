@@ -72,3 +72,5 @@ FROM netflix n
 INNER JOIN netflix_directors nd ON n.show_id = nd.show_id
 GROUP BY nd.director
 HAVING COUNT(DISTINCT n.type) > 1;
+####🌍 2. Country with Highest Number of Comedy Movies
+```sql
