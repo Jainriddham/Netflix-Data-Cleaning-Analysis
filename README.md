@@ -192,7 +192,7 @@ Netflix-Data-Analysis/
 
 ## 🔗 Repository Link
 
-**GitHub:** [https://github.com/Jainriddham/Netflix-Data-Analysis](https://github.com/Jainriddham/Netflix-Data-Analysis)
+**GitHub:** [https://github.com/Jainriddham/Netflix-Data-Analysis](https://github.com/Jainriddham/Netflix-Data-Cleaning-Analysis/blob/main/README.md)
 
 ---
 
@@ -204,19 +204,5 @@ Netflix-Data-Analysis/
 
 ---
 
-## 🏷️ Repo Tagline (for GitHub Description)
-
-> End-to-End **ELT Project** on Netflix Data using **SQL Server and Python** for data cleaning, transformation, and insights.
-
----
-
-### ✅ How to Upload
-
-1. Go to your repo on GitHub.
-2. Click **Add file → Create new file → Name it `README.md`**.
-3. Copy-paste this content directly (no loss of formatting).
-4. Click **Commit changes**.
-
----
 
 Would you like me to generate a **short description + pinned repo tags (topics)** next (e.g., `#SQL #ELT #DataCleaning #PowerBI`), to boost GitHub discoverability?
