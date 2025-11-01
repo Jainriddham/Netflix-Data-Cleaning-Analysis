@@ -1,0 +1,39 @@
+max(df.show_id.str.len())
+import pandas as pd
+df = pd.read_csv('netflix_titles.csv')
+import sqlalchemy as sal
+engine = sal.create_engine(
+    "mssql+pyodbc://MRJAIN\\SQLEXPRESS/master?driver=ODBC+DRIVER+17+FOR+SQL+SERVER"
+)
+conn = engine.connect()
+df.to_sql('netflix_raw', con=conn , index=False, if_exists = 'append')
+conn.close()
+df.to_sql('netflix_raw', con=conn , index=False, if_exists = 'replace')
+conn.close()
+len(df)
+df[df.show_id=='s5023']
+df.show_id.str.len()
+max(df.show_id.str.len())
+max(df.type.str.len())
+max(df.cast.str.len())    #whenever null values is there it is picking it as amx value
+max(df.cast.dropna().str.len())  #hence we dropped the null values   #can always drop null values
+import pandas as pd
+df = pd.read_csv('netflix_titles.csv')
+import sqlalchemy as sal
+engine = sal.create_engine(
+    "mssql+pyodbc://MRJAIN\\SQLEXPRESS/master?driver=ODBC+DRIVER+17+FOR+SQL+SERVER"
+)
+conn = engine.connect()
+df.to_sql('netflix_raw', con=conn , index=False, if_exists = 'append')
+conn.close()
+import sqlalchemy as sal
+engine = sal.create_engine(
+    "mssql+pyodbc://MRJAIN\\SQLEXPRESS/master?driver=ODBC+DRIVER+17+FOR+SQL+SERVER"
+)
+conn = engine.connect()
+df.to_sql('netflix_raw', con=conn , index=False, if_exists = 'append')
+conn.close()
+df.head()
+df.isna()
+df.isna().sum()
+%history -f netflix_data_extract
