@@ -199,8 +199,8 @@ Netflix-Data-Analysis/
 ## 👨‍💻 Author
 
 **Riddham Jain**
-📍 Data Analyst | B.Tech – Mechanical & Industrial Engineering, MIT Manipal
-📫 [LinkedIn](https://www.linkedin.com/in/ridjain29) | [Portfolio](https://codebasics.io/portfolio/Riddham-Jain)
+📍 Data Analyst | B.Tech – Mechanical Engineering, MIT Manipal
+📫 [LinkedIn](https://www.linkedin.com/in/ridjain29/) | [Portfolio](https://codebasics.io/portfolio/Riddham-Jain)
 
 ---
 
