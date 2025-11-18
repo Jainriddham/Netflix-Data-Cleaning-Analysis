@@ -1,8 +1,17 @@
+#Reading the csv file
+
 import pandas as pd 
 df = pd.read_csv('netflix_titles.csv')
+
+#connecting to my sql server
+
 import sqlalchemy as sal
 engine = sal.create_engine("mssql+pyodbc://MRJAIN\\SQLEXPRESS/master?driver=ODBC+DRIVER+17+FOR+SQL+SERVER")
 conn=engine.connect()
+
+
+
+#loading into sql server
 
 df.to_sql('netflix_raw', con=conn , index=False, if_exists = 'append')
 conn.close()
@@ -11,4 +20,5 @@ df.head()
 df[df.show_id=='s5023']
 max(df.description.dropna().str.len())
 df.isna().sum()
+
 
